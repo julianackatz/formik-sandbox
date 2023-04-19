@@ -17,6 +17,22 @@ const Basic = () => (
       }}
     >
       <Form>
+      <div id="checkbox-group">Graduation year</div>
+          <div role="group" aria-labelledby="checkbox-group">
+            <label>
+              <Field type="checkbox" name="checked" value="Sophomore" />
+              Sophomore
+            </label>
+            <label>
+              <Field type="checkbox" name="checked" value="Junior" />
+              Junior
+            </label>
+            <label>
+              <Field type="checkbox" name="checked" value="Senior" />
+              Senior
+            </label>
+          </div>
+
         <label htmlFor="firstName">First Name</label>
         <Field id="firstName" name="firstName" placeholder="Jane" />
 
